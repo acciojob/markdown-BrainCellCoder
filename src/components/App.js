@@ -14,7 +14,7 @@ function App() {
     parsedText = parsedText.replace(/^### (.*$)/gim, "<h3>$1</h3>");
     parsedText = parsedText.replace(/\*\*(.*)\*\*/gim, "<b>$1</b>");
     parsedText = parsedText.replace(/_(.*)_/gim, "<i>$1</i>");
-
+    // llknkn
     parsedText = parsedText.replace(/\n/gim, "<br>");
 
     return parsedText;
